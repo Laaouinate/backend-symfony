@@ -16,16 +16,16 @@ php bin/console doctrine:migrations:migrate
 **generer fake data**
 php bin/console doctrine:fixtures:load
 
-# post
+**post**
 1. http://127.0.0.1:8000/customer/add
 
-# get
+**get**
 2. http://127.0.0.1:8000/customers/{id}
 
-# getAll
+**getAll**
 3. http://127.0.0.1:8000/customers
 
-# delete 
+**delete** 
 4. http://127.0.0.1:8000/customers/{id}
 
 
