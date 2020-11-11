@@ -16,8 +16,7 @@ php bin/console doctrine:migrations:migrate
 **generer fake data**
 php bin/console doctrine:fixtures:load
 
-**post**
-1. http://127.0.0.1:8000/customer/add
+**post** 1. http://127.0.0.1:8000/customer/add
 
 **get**
 2. http://127.0.0.1:8000/customers/{id}
